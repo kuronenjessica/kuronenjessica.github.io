@@ -1,0 +1,20 @@
+
+
+rect{fill:url(#MyGradient)}
+
+
+.composition1 #bauhaus{
+display: none;
+}
+
+
+.composition1 svg{
+  margin: 0 auto;
+  display: block
+}
+
+@media screen and (max-width: 980px) {
+.composition1{
+  background-color: red;
+}
+}
