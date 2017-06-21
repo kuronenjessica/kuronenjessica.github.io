@@ -1,18 +1,37 @@
+.st0{fill:#FFFFFF;}
+.st1{stroke:#FFFFFF;stroke-miterlimit:10;}
+.st2{fill:#FFFFFF;stroke:#000000;stroke-width:0.6509;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
 .composition2 #nature,
 #bauhaus{
 display: none;
 }
 
-.composition2{
-margin: auto 0;
+.composition2 svg{
+margin: 0 auto;
+display: block;
 }
 
 .composition2 #phone{
-transform: scale(0.25);
+transform: translateX(260px) translateY(162px) scale(0.25);
 stroke-width:4px;
-
 }
 
-.st0 {
-fill: url(#MyGradient);
+.composition2 #book{
+transform: translateX(400px) translateY(-20px);
+}
+
+@media screen and (max-width: 580px) {
+.composition2 #book{
+  transform: translateX(120px) translateY(-20px);
+}
+.composition2 #phone{
+  transform: translateX(80px) translateY(162px) scale(0.25);
+}
+}
+
+.composition2 .st0 {
+fill: url(#testGradient);
 }
