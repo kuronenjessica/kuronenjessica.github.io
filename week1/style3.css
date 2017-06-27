@@ -1,0 +1,27 @@
+
+.composition3 .st0{fill:pink;}
+.composition3 .st1{stroke:pink;stroke-miterlimit:10;}
+.composition3 .st2{fill:pink;stroke:#000000;stroke-width:0.6509;stroke-miterlimit:10;}
+.composition3 .st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+.composition3 .st4{fill:none;stroke:pink;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+
+
+.composition3 #phone, #nature{
+display: none;
+}
+
+.composition3 #bauhaus {
+  display: block;
+  transform: translateX(58px) translateY(62px) scale(1.75);
+}
+
+.composition3 #book{
+  transform: translateX(-600px) translateY(-390px) scale(4);
+  display: block;
+}
+
+.composition3 svg{
+  margin: 0 auto;
+  display: block
+}
